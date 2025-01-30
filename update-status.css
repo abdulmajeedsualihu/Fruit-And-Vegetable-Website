@@ -1,0 +1,34 @@
+/* Update Status Form */
+.orders-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.orders-section label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.orders-section select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.orders-section .btn-update-status {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.orders-section .btn-update-status:hover {
+    background-color: #218838;
+}

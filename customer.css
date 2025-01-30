@@ -1,0 +1,44 @@
+/* Customers Table */
+.customers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customers-table th, .customers-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.customers-table th {
+    background-color: #f4f4f4;
+}
+
+.customers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.customers-table .btn-edit, .customers-table .btn-delete {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.customers-table .btn-edit {
+    background-color: #4CAF50; /* Green */
+}
+
+.customers-table .btn-edit:hover {
+    background-color: #45a049;
+}
+
+.customers-table .btn-delete {
+    background-color: #f44336; /* Red */
+}
+
+.customers-table .btn-delete:hover {
+    background-color: #e53935;
+}

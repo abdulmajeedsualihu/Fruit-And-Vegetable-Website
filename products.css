@@ -1,0 +1,44 @@
+/* Products Table */
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.products-table th, .products-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.products-table th {
+    background-color: #f4f4f4;
+}
+
+.products-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.products-table .btn-edit, .products-table .btn-delete {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.products-table .btn-edit {
+    background-color: #4CAF50; /* Green */
+}
+
+.products-table .btn-edit:hover {
+    background-color: #45a049;
+}
+
+.products-table .btn-delete {
+    background-color: #f44336; /* Red */
+}
+
+.products-table .btn-delete:hover {
+    background-color: #e53935;
+}

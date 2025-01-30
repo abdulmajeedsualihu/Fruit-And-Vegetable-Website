@@ -1,0 +1,56 @@
+/* Orders Table Styling */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table th, .orders-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.orders-table th {
+    background-color: #333;
+    color: white;
+}
+
+.orders-table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.orders-table td .btn-view {
+    background-color: #28a745;
+}
+
+.orders-table td .btn-view:hover {
+    background-color: #218838;
+}
+
+.orders-table td .btn-update {
+    background-color: #ffc107;
+    margin-left: 10px;
+}
+
+.orders-table td .btn-update:hover {
+    background-color: #e0a800;
+}
+
+/* Section Styling */
+.orders-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Active Sidebar Link */
+.sidebar-nav li a.active {
+    background-color: #555;
+}

@@ -1,0 +1,83 @@
+
+$theme-colors: (
+    "primary": #FF9B50,
+    "secondary": #FFBB5C,
+    "light": rgb(251, 245, 245),
+    "info": red
+);
+
+.food-menu button {
+    color: black !important;
+}
+
+.food-menu .active {
+    color: #FF9B50!important;
+}
+
+.row .col {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote img {
+    border-radius: 50%;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section li {
+    line-height: 2rem;
+    list-style: none;
+}
+
+.footer-section i {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 166, 1, 0.513);
+    border-color: #FF9B50;
+}
+
+.bi-star-fill, .bi-star-half {
+    color: #FF9B50;
+}
+
+.all-food-menu .card:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.form-control:focus {
+    transition: 0.3s;
+}
+
+#navbarSupportedContent {
+    transition: 0.3s;
+}
+
+@font-face {
+    font-family: lato;
+    src: url('./Fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: courgete;
+    src: url('./Fonts/Courgette-Regular.ttf');
+}
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+
+:root {
+    --bs-body-font-family: lato;
+}
